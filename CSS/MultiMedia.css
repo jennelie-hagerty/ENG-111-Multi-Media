@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+
+body {
+    background-color: #94c5cc;
+    color: #f8f8f8;
+    font-family: "Raleway", "sans-se-rif";
+    font-size: 19px;
+}
