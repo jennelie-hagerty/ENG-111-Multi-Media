@@ -2,12 +2,63 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 
 body {
-    background-color: #94c5cc;
-    color: #f8f8f8;
+    background-color: ivory;
+    color: black;
     font-family: "Raleway", "sans-se-rif";
-    font-size: 19px;
+    font-size: 20px;
 }
 
-#tupac {
+#topNav{
+    text-align: center;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;
+  }
+
+#hh1 {
+    font-size: 50px;
+    color: red;
+}
+
+#hh2 {
+    font-size: 25px;
+    color: blue;
+}
+
+#tpmain {
+    background-color: ivory;
     color: black;
+    font-size: 20px;
+    text-align: center;
+}
+
+#tph1 {
+    color:purple;
+    box-shadow: black;
+    font-style: italic;
+    text-shadow: 3px 5px 3px black;
+    font-size: 80px;
+}
+
+#tph2 {
+    font-size: 40px;
+    color: lightblue;
+    text-shadow: 3px 5px 3px black;
 }
