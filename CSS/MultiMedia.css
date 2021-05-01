@@ -2,63 +2,192 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 
 body {
-    background-color: ivory;
-    color: black;
-    font-family: "Raleway", "sans-se-rif";
-    font-size: 20px;
+  background-color: ivory;
+  color: black;
+  font-family: "Raleway", "sans-se-rif";
+  font-size: 20px;
+  max-width: 1480px;
+  margin: 0 auto;
 }
 
-#topNav{
-    text-align: center;
+header {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+h1 {
+  grid-column: 1 / 6;
+  grid-row: 1;
+  font-size: 50px;
+  color: red;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0px;
+}
+
+#topNav {
+  grid-column: 1 / 6;
+  grid-row: 2;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 0px;
 }
 
 /* unvisited link */
 a:link {
-    color: red;
-  }
-  
-  /* visited link */
-  a:visited {
-    color: green;
-  }
-  
-  /* mouse over link */
-  a:hover {
-    color: hotpink;
-  }
-  
-  /* selected link */
-  a:active {
-    color: blue;
-  }
-
-#hh1 {
-    font-size: 50px;
-    color: red;
+  color: blue;
+}
+/* visited link */
+a:visited {
+  color: green;
+}
+a:hover {
+  color: purple;
 }
 
-#hh2 {
-    font-size: 25px;
-    color: blue;
+#grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
 }
 
-#tpmain {
-    background-color: ivory;
-    color: black;
-    font-size: 20px;
-    text-align: center;
+#t1 {
+  grid-column: 1/2;
+  grid-row: 1;
+  font-size: 25px;
+  color: blue;
 }
 
-#tph1 {
-    color:purple;
-    box-shadow: black;
-    font-style: italic;
-    text-shadow: 3px 5px 3px black;
-    font-size: 80px;
+#hp1 {
+  grid-column: 1 / 3;
+  grid-row: 2;
+}
+#img1 {
+  grid-column: 3 / 4;
+  grid-row: 2;
+  width: 70%;
+  margin-left: 70px;
+  margin-top: 30px;
 }
 
-#tph2 {
-    font-size: 40px;
-    color: lightblue;
-    text-shadow: 3px 5px 3px black;
+#i1c {
+  color: rgb(77, 68, 68);
+  grid-column: 3;
+  grid-row: 2;
+  margin-top: 550px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#t2 {
+  grid-column: 1/2;
+  grid-row: 3;
+  font-size: 25px;
+  color: blue;
+}
+
+#img2 {
+  grid-column: 1/2;
+  grid-row: 4;
+  width: 90%;
+  margin-left: 30px;
+}
+
+#i2c {
+  color: rgb(77, 68, 68);
+  grid-column: 1/2;
+  grid-row: 4;
+  margin-top: 250px;
+  margin-left: 30px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#hl1 {
+  grid-column: 2/4;
+  grid-row: 4;
+}
+
+#pt1 {
+  grid-column: 1/2;
+  grid-row: 1;
+  font-size: 25px;
+  color: blue;
+}
+
+#pp1 {
+  grid-column: 2 / 4;
+  grid-row: 2;
+}
+
+#img3 {
+  grid-column: 1/2;
+  grid-row: 2;
+  width: 90%;
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+#i3c {
+  color: rgb(77, 68, 68);
+  grid-column: 1/2;
+  grid-row: 2;
+  font-style: italic;
+  margin-top: 350px;
+}
+
+#et1 {
+  grid-column: 1/2;
+  grid-row: 1;
+  font-size: 25px;
+  color: blue;
+}
+
+#ep1 {
+  grid-column: 2/4;
+  grid-row: 2;
+  margin-left: 140px;
+}
+
+#img4 {
+  grid-column: 1/4;
+  grid-row: 2;
+  width: 40%;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 140px;
+}
+
+#i4c {
+  color: rgb(77, 68, 68);
+  grid-column: 1/3;
+  grid-row: 2;
+  margin-top: 300px;
+  margin-left: 30px;
+  font-size: 15px;
+  font-style: italic;
+}
+
+#ep2 {
+  grid-column: 1/3;
+  grid-row: 3;
+  margin-top: 150px;
+}
+
+#img5 {
+  grid-column: 3/4;
+  grid-row: 3;
+  width: 80%;
+  margin-left: 10px;
+}
+
+#i5c {
+  color: rgb(77, 68, 68);
+  grid-column: 3/4;
+  grid-row: 3;
+  margin-top: 370px;
+  font-size: 15px;
+  font-style: italic;
 }

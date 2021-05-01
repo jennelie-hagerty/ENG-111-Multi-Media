@@ -1,0 +1,42 @@
+body {
+  background-color: black;
+  color: ivory;
+  font-family: "Raleway", "sans-se-rif";
+  font-size: 20px;
+}
+
+main {
+  text-align: center;
+}
+
+h1 {
+  color: purple;
+  box-shadow: ivory;
+  font-style: italic;
+  text-shadow: 1px 3px 2px ivory;
+  font-size: 80px;
+}
+
+h2 {
+  font-size: 40px;
+  color: lightblue;
+}
+
+#topNav {
+  text-align: left;
+}
+
+/* unvisited link */
+a:link {
+  color: ivory;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: purple;
+}
